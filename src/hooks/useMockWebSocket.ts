@@ -35,13 +35,11 @@ export const useMockWebSocket = (enabled = true) => {
   useEffect(() => {
     if (!enabled) return;
 
-    // Initial load
     setTimeout(() => {
       setData(generateMockTokens());
       setIsLoading(false);
     }, 1500);
 
-    // Simulate real-time updates
     const interval = setInterval(() => {
       setData(prev => prev.map(token => ({
         ...token,

@@ -9,17 +9,11 @@ export interface Token {
   marketCap: number;
   holders: number;
   liquidity: number;
-  progress?: number;
+  progress: number;
   createdAt: number;
-  contractAddress?: string;
 }
 
 export interface SortConfig {
   key: keyof Token;
   direction: 'asc' | 'desc';
-}
-
-export interface FilterConfig {
-  category: Token['category'];
-  searchQuery: string;
 }
