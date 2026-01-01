@@ -5,7 +5,7 @@ import { AlertCircle } from 'lucide-react';
 import { useMockWebSocket } from '@/hooks/useMockWebSocket';
 import { TokenTable } from '@/components/table/TokenTable';
 import { SkeletonRow } from '@/components/ui/Skeleton';
-import type { SortConfig } from '@/types/token';
+import type { Token, SortConfig } from '@/types/token';
 
 export default function AxiomTradeTable() {
   const [activeTab, setActiveTab] = useState<'new' | 'finalStretch' | 'migrated'>('new');
@@ -14,7 +14,7 @@ export default function AxiomTradeTable() {
   
   const handleSort = useCallback((key: string) => {
     setSortConfig(prev => ({
-      key: key as keyof SortConfig['key'],
+      key: key as keyof Token,
       direction: prev.key === key && prev.direction === 'desc' ? 'asc' : 'desc'
     }));
   }, []);

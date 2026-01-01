@@ -30,7 +30,7 @@ const generateMockTokens = (): Token[] => {
 export const useMockWebSocket = (enabled = true) => {
   const [data, setData] = useState<Token[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const [error] = useState<Error | null>(null);
 
   useEffect(() => {
     if (!enabled) return;
