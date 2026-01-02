@@ -70,7 +70,7 @@ A pixel-perfect, production-ready replica of Axiom Trade's token discovery inter
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/axiom-trade-table.git
+git clone https://github.com/Siva6383/axiom-trade-table.git
 cd axiom-trade-table
 
 # Install dependencies
@@ -133,32 +133,27 @@ axiom-trade-table/
 
 ## 🌐 Live Demo
 
-**Production URL**: [https://axiom-trade-table.vercel.app](https://axiom-trade-table.vercel.app)
+**Production URL**: [https://axioms-trade-table.vercel.app](https://axioms-trade-table.vercel.app)
 
 ## 📸 Screenshots
 
 ### Desktop View (1920px)
-![Desktop](./screenshots/desktop.png)
+![Desktop](.src/screenshots/desktop.png)
 
 ### Tablet View (768px)
-![Tablet](./screenshots/tablet.png)
+![Tablet](.src/screenshots/tablet.png)
 
 ### Mobile View (375px)
-![Mobile](./screenshots/mobile.png)
+![Mobile](.src/screenshots/mobile.png)
 
 ### Modal Interaction
-![Modal](./screenshots/modal.png)
+![Modal](.src/screenshots/modal.png)
 
 ## 🎥 Video Demo
 
-**Watch the full demo**: [YouTube Link](https://youtube.com/watch?v=YOUR_VIDEO_ID)
+**Watch the full demo**: [YouTube Link](https://youtu.be/UezToffzMb4)
 
 ## 🎨 Design Decisions
-
-### Component Architecture
-- **Atomic Design**: Smallest reusable components (Button, Tooltip) → Organisms (TokenTable)
-- **DRY Principle**: Zero code duplication
-- **Separation of Concerns**: Logic (hooks) separate from UI (components)
 
 ### Performance Strategy
 1. **Memoization**: All expensive computations cached
@@ -200,17 +195,11 @@ Deployed on **Vercel** with automatic CI/CD from GitHub main branch.
 
 ### Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/axiom-trade-table)
+[![Deploy with Vercel](https://vercel.com/button)]
 
-## 📝 License
-
-MIT License - feel free to use this project for learning or portfolio purposes.
-
-## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
+- GitHub: [@YOUR_USERNAME](https://github.com/Siva6383)
 
 ---
 
@@ -241,7 +230,7 @@ git push
    - Install Command: `npm install`
 6. Click **"Deploy"**
 
-Your app will be live in ~2 minutes at: `https://axiom-trade-table.vercel.app`
+Your app will be live in ~2 minutes at: `https://axioms-trade-table.vercel.app`
 
 ### Method 2: Deploy via CLI
 ```bash
@@ -262,11 +251,6 @@ vercel --prod
 
 ## **Phase 4: Deliverable 3 - Video Demo** 🎥
 
-### Recording Tools (Choose One):
-- **Loom** (easiest): https://loom.com
-- **OBS Studio** (free): https://obsproject.com
-- **QuickTime** (Mac)
-- **Windows Game Bar** (Win + G)
 
 ### Video Script (1-2 minutes):
 
@@ -345,8 +329,8 @@ Links in the description. Thanks!"
 ```
      A pixel-perfect replica of Axiom Trade's token discovery table.
      
-     🔗 Live Demo: https://your-vercel-url.vercel.app
-     💻 GitHub: https://github.com/YOUR_USERNAME/axiom-trade-table
+     🔗 Live Demo: https://axioms-trade-table.vercel.app
+     💻 GitHub: https://github.com/Siva6383/axiom-trade-table
      
      Built with:
      - Next.js 14
