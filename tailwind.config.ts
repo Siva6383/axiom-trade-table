@@ -18,8 +18,8 @@ const config: Config = {
           '100%': { opacity: '1', transform: 'scale(1)' },
         },
         shimmer: {
-          '0%, 100%': { opacity: '1' },
-          '50%': { opacity: '0.5' },
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
         },
       },
     },

@@ -11,6 +11,13 @@ export interface Token {
   liquidity: number;
   progress: number;
   createdAt: number;
+  txCount: number;
+  colorGradient: string;
+  isHot: boolean;
+  isNew: boolean;
+  verified: boolean;
+  trend: 'up' | 'down';
+  lastUpdate: number;
 }
 
 export interface SortConfig {
